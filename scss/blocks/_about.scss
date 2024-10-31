@@ -1,0 +1,81 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 67px;
+}
+
+.about__img {
+  position: relative;
+  overflow: hidden;
+}
+
+.about__img img {
+  max-width: 100%;
+}
+
+.imgText {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  transition: 0.5s;
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+}
+
+.imgText h2 {
+  position: absolute;
+  color: var(--white);
+  top: 40%;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-left: 90px;
+}
+
+.about__img:hover .imgText {
+  left: 0%;
+}
+
+.about__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.about__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.about__li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.about__li h3 {
+  @include BLword();
+  margin-bottom: 16px;
+}
+
+.about__li p {
+  @include STword();
+  max-width: 291px;
+}
+
+.about__title2,
+.poster__2{
+  display: none;
+}

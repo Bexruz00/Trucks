@@ -1,0 +1,110 @@
+// Laptop Large Version: [992px; 1199px]
+@media (max-width: 1199.5px) {
+  // ---- Home sart ----
+
+  .home {
+    margin-top: 80px;
+    padding: 20px;
+  }
+
+  .home__bin {
+    gap: 70px;
+  }
+
+  .home__box img {
+    width: 100%;
+  }
+
+  .home__title h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .home__title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .home__cards {
+    padding: 30px 70px;
+  }
+
+  .home__ul li {
+    padding-right: 70px;
+  }
+
+  .home__ul li:nth-child(2) {
+    padding-left: 44px;
+  }
+
+  .home__ul li:nth-child(3) {
+    padding-left: 44px;
+  }
+
+  .home__ul li h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .home__ul li p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  // ---- Home end ----
+
+  // ---- About start ----
+  .about {
+    padding: 20px;
+  }
+
+  .imgText h2 {
+    top: 25%;
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  // ---- About end ----
+
+  // ---- Cadrs start ----
+
+  .cards {
+    padding: 20px;
+    margin-top: 80px;
+  }
+
+  .cards__title h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .cards__box {
+    gap: 20px;
+  }
+
+  .cards__bin {
+    max-width: 300px;
+  }
+
+  .cards__bin img {
+    max-width: 300px;
+  }
+
+  // ---- Cadrs end ----
+
+  // ---- Work start ----
+  .work {
+    padding: 30px;
+    margin-top: 0px;
+  }
+
+  // ---- Work end ----
+
+  // ---- Video start ----
+  .videos {
+    margin-top: 42px;
+    padding: 20px;
+  }
+
+  // ---- Video end ----
+}

@@ -1,0 +1,138 @@
+// Laptop Version: [768px, 991px]
+@media (max-width: 991.5px) {
+  // ---- Home sart ----
+
+  .home {
+    margin-top: 70px;
+  }
+
+  .home__bin {
+    gap: 50px;
+  }
+
+  .home__title {
+    gap: 20px;
+  }
+
+  .home__title h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .home__title p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .home__cards {
+    padding: 20px 40px;
+  }
+
+  .home__ul li {
+    padding-right: 40px;
+  }
+
+  .home__ul li img {
+    width: 35%;
+  }
+
+  .home__ul li:nth-child(2) {
+    padding-left: 34px;
+  }
+
+  .home__ul li:nth-child(3) {
+    padding-left: 34px;
+  }
+
+  .home__ul li h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .home__ul li p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  // ---- Home end ----
+
+  // ---- About start ----
+
+  .imgText h2 {
+    top: 25%;
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  .about__li h3 {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 12px;
+  }
+
+  .about__li p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .about__li {
+    gap: 25px;
+  }
+
+  .about__li img {
+    max-width: 65px;
+  }
+
+  // ---- About end ----
+
+  // ---- Cadrs start ----
+
+  .cards {
+    margin-top: 40px;
+  }
+
+  .cards__box {
+    padding-top: 30px;
+  }
+
+  .cards__title h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .cards__bin {
+    max-width: 230px;
+  }
+
+  .cards__bin img {
+    max-width: 230px;
+  }
+
+  .cards__info {
+    padding: 10px 20px;
+    padding-bottom: 50px;
+  }
+
+  // ---- Cadrs end ----
+
+  // ---- Work start ----
+  .work {
+    padding: 30px;
+    margin-top: 0px;
+  }
+
+  .work__bin {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    padding: 32px 60px;
+  }
+
+  .work__box {
+    gap: 24px;
+    padding-left: 0px;
+    margin-top: 48px;
+  }
+
+  // ---- Work end ----
+}

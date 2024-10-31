@@ -1,0 +1,77 @@
+.home {
+  margin-top: 109px;
+  @include display(column, center, center, 67px);
+}
+
+.home__bin {
+  @include display(row, center, space-between, 80px);
+}
+
+.home__title {
+  @include display(column, start, center, 40px);
+}
+
+.home__title h1 {
+  max-width: 550px;
+  @include Tword();
+}
+
+.home__title p {
+  @include STword();
+  max-width: 525px;
+}
+
+.bt {
+  @include button();
+  transition: 0.3s;
+}
+
+.bt:hover {
+  border-bottom: 2px solid #ffb700;
+  color: #696969;
+}
+
+.bt:active {
+  color: var(--black);
+}
+
+.home__cards {
+  background: var(--white);
+  box-shadow: 0px 4px 20px 0px #00000026;
+  padding: 40px 80px;
+  border-radius: 20px;
+}
+
+.home__ul {
+  @include display(row, center, center, 0);
+}
+
+.home__ul li {
+  @include display(column, start, center, 10px);
+  padding-right: 90px;
+}
+
+.home__ul li:nth-child(2){
+    border-left: 1px solid #D7D7DD;
+    border-right: 1px solid #D7D7DD;
+    padding-left: 64px;
+}
+
+.home__ul li:nth-child(3){
+    padding-left: 64px;
+}
+
+.home__ul li h3 {
+  @include BLword();
+  padding-top: 14px;
+  padding-bottom: 6px;
+}
+
+.home__ul li p {
+  @include STword();
+}
+
+.track__3,
+.track__2{
+    display: none;
+}

@@ -1,0 +1,75 @@
+.footer {
+  padding: 80px 95px 29px 95px;
+  background: var(--green);
+  margin-top: 166px;
+}
+
+.footer__links {
+  @include display(row, start, space-around, 0);
+  flex-wrap: wrap;
+}
+
+.footer__box {
+  @include display(column, start, center, 25px);
+}
+
+.footer__bin {
+  @include display(row, start, space-around, 0px);
+}
+
+.footer__links2 {
+  display: none;
+}
+
+.footer__box a {
+  font-family: "Exo 2";
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.footer__box a:hover {
+  opacity: 0.8;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 14px;
+}
+
+.footer__bt {
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  width: 271px;
+  height: 42px;
+  background: #ff9619;
+  border: none;
+  outline: none;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.footer__subtitle {
+  margin-top: 80px;
+  @include display(row, center, center, 0);
+}
+
+.footer__subtitle p {
+  font-family: "Exo 2";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  color: #fff;
+  text-align: center;
+}
+
+.button2 {
+  display: none;
+}
